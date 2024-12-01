@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <application
+        android:label="KU AgroSphere"
+        android:icon="@mipmap/ic_launcher"
+        tools:replace="android:icon, android:label">
+ 
+    </application>
+</manifest>

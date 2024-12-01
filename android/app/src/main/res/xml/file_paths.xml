@@ -1,0 +1,6 @@
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Files in the app's internal storage -->
+    <files-path
+        name="app_files"
+        path="." />
+</paths>
