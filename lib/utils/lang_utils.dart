@@ -1,5 +1,5 @@
 class YajnaLocalization {
-  static Map<String, String> appname = {'en': "AgroSphere", 'np': "AgroSphere"};
+  static Map<String, String> appname = {'en': "Ku Krishi", 'np': "Ku Krishi"};
   static Map<String, String> register = {
     'en': "Register",
     "np": "दर्ता गर्नुहोस्"

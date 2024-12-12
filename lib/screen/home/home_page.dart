@@ -11,7 +11,6 @@ import 'package:late_blight/widgets/login_alert.dart';
 import 'package:late_blight/widgets/more_info.dart';
 import 'package:late_blight/widgets/share.app.dart';
 import 'package:late_blight/widgets/sub_app_carousel_slider.dart';
-import 'package:late_blight/widgets/text_speech.dart';
 
 class KrishiHomePage extends StatelessWidget {
   final AppLanguage language;
@@ -64,6 +63,7 @@ class KrishiHomePage extends StatelessWidget {
           const SliverToBoxAdapter(
             child: ReadKrishiInfo(),
           ),
+
           // LoginFeatures(),
 
           const SliverToBoxAdapter(child: ShareAppWidget()),

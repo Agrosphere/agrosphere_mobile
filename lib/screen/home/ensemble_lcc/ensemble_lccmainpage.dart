@@ -94,7 +94,7 @@ class _LCCMainPageState extends State<EnsembleLCCMainPage> {
                 child: Text(
                   YajnaLocalization.fieldPhotos[language.name].toString(),
                   softWrap: true,
-                  style: const TextStyle(color: Colors.white70),
+                  style: const TextStyle(color: Colors.white70, fontSize: 11),
                 ),
               ),
             ],

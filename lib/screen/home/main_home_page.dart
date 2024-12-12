@@ -133,7 +133,7 @@ class MainHomePage extends StatelessWidget {
             //navigate to the trek mate
             Navigator.pushNamed(context, '/chat-ai');
           },
-          tooltip: "Krishi Guru",
+          tooltip: "Krishi AI",
           backgroundColor: Colors.blue,
           shape: const CircleBorder(),
           child: ClipOval(

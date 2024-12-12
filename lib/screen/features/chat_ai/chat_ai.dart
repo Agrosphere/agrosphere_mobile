@@ -15,7 +15,7 @@ class ChatAi extends StatelessWidget {
         shadowColor: Colors.black,
         backgroundColor: appBarColor,
         title: const Text(
-          'Krishi Guru',
+          'Krishi AI',
           style: TextStyle(
             color: Colors.white,
             fontWeight: FontWeight.bold,

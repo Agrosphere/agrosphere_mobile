@@ -19,6 +19,7 @@ import 'package:late_blight/screen/insects/insect_category.dart';
 import 'package:late_blight/screen/insects/insects.dart';
 import 'package:late_blight/screen/login/login.dart';
 import 'package:late_blight/screen/onboarding/onboarding.dart';
+import 'package:late_blight/screen/recommendation/recommendation.dart';
 import 'package:late_blight/screen/register/register.dart';
 import 'package:late_blight/screen/splash.dart';
 
@@ -45,5 +46,5 @@ Map<String, Widget Function(BuildContext)> routes = {
   '/chat': (context) => const ChatMainPage(),
   '/user-dashboard': (context) => const UserDashboard(),
   '/read-krishi': (context) => const ReadKrishi(),
-  '/ripen_unripen': (context) => const LateBlightSegmentationMain(),
+  '/recommendation': (context) => const RecommendationPage(),
 };

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:late_blight/colors/colors.dart';
-import 'package:late_blight/widgets/app_features_carousel_slider.dart';
 import 'package:late_blight/widgets/diseases_horizontal_list.dart';
 import 'package:late_blight/widgets/insects_categories_horizontal_list.dart';
 import 'package:late_blight/widgets/insects_horizontal_list.dart';

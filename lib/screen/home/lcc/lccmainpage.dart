@@ -135,7 +135,10 @@ class _LCCMainPageState extends State<LCCMainPage> {
                   textAlign: TextAlign.center,
                   softWrap: true,
                   maxLines: 2,
-                  style: const TextStyle(color: Colors.white70),
+                  style: const TextStyle(
+                    color: Colors.white70,
+                    fontSize: 9,
+                  ),
                 ),
               ),
             ],
@@ -548,11 +551,11 @@ class _LCCMainPageState extends State<LCCMainPage> {
                   if (lccState.hasupdate) {
                     showModelUpdateDialog(context, lccState);
                   }
-                  String currentVersion = lccState.lccModelPath!
-                      .split('/')
-                      .last
-                      .split('_')[2]
-                      .replaceAll('.tflite', '');
+                  String currentVersion = "";
+                  //     .split('/')
+                  //     .last
+                  //     .split('_')[0]
+                  //     .replaceAll('.tflite', '');
                   return Container(
                     alignment: Alignment.center,
                     padding: const EdgeInsets.all(7),

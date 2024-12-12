@@ -9,7 +9,6 @@ import 'package:late_blight/utils/enums.dart';
 import 'package:late_blight/widgets/login_alert.dart';
 import 'package:late_blight/widgets/render_text_item.dart';
 import 'package:late_blight/widgets/text_field.dart';
-import 'package:late_blight/widgets/text_speech.dart';
 import 'package:web_socket_channel/io.dart';
 import 'package:web_socket_channel/web_socket_channel.dart';
 
@@ -131,7 +130,7 @@ class _TrekSathiTrekMateState extends State<AISathi> {
                     hintStyle: TextStyle(color: Colors.white),
                     textInputAction: TextInputAction.send,
                     controller: _controller,
-                    hintText: "Ask Krishi Guru",
+                    hintText: "Ask Krishi AI",
                     onFieldSubmitted: (p0) {
                       ask();
                     },
@@ -162,7 +161,7 @@ class _TrekSathiTrekMateState extends State<AISathi> {
     }
 
     Widget messageRender(Message item) {
-      print(item.data.replaceAll(RegExp(r'[*]'), ''));
+      // print(item.data.replaceAll(RegExp(r'[*]'), ''));
       return Padding(
         padding: const EdgeInsets.all(4.0),
         child: Column(

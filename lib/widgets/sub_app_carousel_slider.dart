@@ -23,12 +23,12 @@ class _LateBlighSliderState extends State<SubAppCarouselSlider> {
   Widget build(BuildContext context) {
     LanguageBloc bloc = BlocProvider.of<LanguageBloc>(context, listen: true);
     var subapps = [
-      // SubApp(
-      //   appname: YajnaLocalization.lateblight[bloc.state.name].toString(),
-      //   imageUrl: "assets/late_blight.png",
-      //   description: "Predict late blight at your location",
-      //   route: "/late_blight",
-      // ),
+      SubApp(
+        appname: YajnaLocalization.lateblight[bloc.state.name].toString(),
+        imageUrl: "assets/late_blight.png",
+        description: "Predict late blight at your location",
+        route: "/late_blight",
+      ),
       SubApp(
         appname: YajnaLocalization.lcc[bloc.state.name].toString(),
         imageUrl: "assets/lcc.png",
@@ -42,10 +42,10 @@ class _LateBlighSliderState extends State<SubAppCarouselSlider> {
         route: "/late_blight_seg",
       ),
       SubApp(
-        appname: "Tomato Ripen or Unripen",
-        imageUrl: "assets/ripen_unripen.png",
+        appname: "कृषि सुझाव",
+        imageUrl: "assets/recommendation.png",
         description: "",
-        route: "/late_blight_seg",
+        route: "/recommendation",
       ),
     ];
 

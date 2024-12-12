@@ -1,5 +1,5 @@
 name: late_blight
-description: "AgroSphere: Cultivating Tomorrow with AI Solutions"
+description: "Ku Krishi: Cultivating Tomorrow with AI Solutions"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'PlayStore' # Remove this line if you wish to publish to pub.dev
@@ -16,7 +16,7 @@ publish_to: 'PlayStore' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archivimport 'dart:io'; e/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 1.0.13+14
+version: 1.0.14+15
 
 environment:
   sdk: '>=3.2.3 <4.0.0'

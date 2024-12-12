@@ -7,6 +7,7 @@ import 'package:late_blight/screen/home/late_blight/bloc/weather.bloc.dart';
 import 'package:late_blight/screen/home/late_blight/map/bloc/map_bloc.dart';
 import 'package:late_blight/screen/onboarding/bloc/onboarding_bloc.dart';
 import 'package:late_blight/bloc/language_bloc.dart';
+import 'package:late_blight/screen/recommendation/recommendation_bloc.dart';
 
 getOtherProviders() {
   final otherProviders = [
@@ -18,6 +19,7 @@ getOtherProviders() {
     BlocProvider(create: (context) => KalimatiTarkariBloc()),
     BlocProvider(create: (context) => NewsBloc()),
     BlocProvider(create: (context) => NavIndexBloc()),
+    BlocProvider(create: (context) => AgriculturalReportCubit()),
   ];
   return otherProviders;
 }
